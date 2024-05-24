@@ -14,6 +14,11 @@ import projImg10 from "../assets/img/project-img10.png"
 import projImg11 from "../assets/img/project-img11.png"
 import projImg12 from "../assets/img/project-img12.png"
 import projImg13 from "../assets/img/project-img13.png"
+import projImg14 from "../assets/img/project-img14.png"
+import projImg15 from "../assets/img/project-img15.png"
+import projImg16 from "../assets/img/project-img16.png"
+import projImg17 from "../assets/img/project-img17.png"
+
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -65,21 +70,21 @@ export const Projects = () => {
     {
       title: "Men 3d modelling",
       description: "Design & Development",
-      imgUrl: projImg7,
+      imgUrl: projImg9,
       isVideo:false,
 
     },
     {
       title: "Business Shop Tilda",
       description: "Design & Development",
-      imgUrl: projImg9,
+      imgUrl: projImg7,
       isVideo:false,
 
     },
     {
       title: "Town 3d modelling",
       description: "Design & Development",
-      imgUrl: projImg6,
+      imgUrl: projImg12,
       isVideo:false,
 
     },
@@ -97,17 +102,11 @@ export const Projects = () => {
       isVideo:false,
 
     },
+   
     {
       title: "Town 3d modelling",
       description: "Design & Development",
-      imgUrl: projImg13,
-      isVideo:false,
-
-    },
-    {
-      title: "Town 3d modelling",
-      description: "Design & Development",
-      imgUrl: projImg12,
+      imgUrl: projImg6,
       isVideo:false,
 
     },
@@ -155,12 +154,113 @@ export const Projects = () => {
 
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
+                    <div>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+
+        </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <p>Мои проекты по React & Java </p>
+                      <Row className="d-flex flex-wrap justify-content-center">
+                      <Col size={12} sm={6} md={4} className="m-5">
+                        <img src={projImg13} alt="Project 1" style={{ width: '100%', height: 'auto', borderRadius: '30px' }} />
+                        <p style={{ fontSize: '20px', fontWeight: 'bold' }}>
+  <a 
+    href="https://github.com/aigerimbakh/shopshablon" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    style={{
+      color: 'white',
+      textDecoration: 'none',
+      transition: 'color 0.3s', // Добавлен эффект плавного перехода цвета при наведении
+    }}
+    onMouseEnter={(e) => e.target.style.color = 'red'} // Изменение цвета при наведении на ссылку
+    onMouseLeave={(e) => e.target.style.color = 'white'} // Возвращение цвета при уходе курсора с ссылки
+  >
+    Code GitHub
+  </a>
+</p>
+                        </Col> <Col size={12} sm={6} md={4} className="m-5">
+                        <img src={projImg16} alt="Project 1" style={{ width: '100%', height: 'auto', borderRadius: '30px' }} />
+                        <p style={{ fontSize: '20px', fontWeight: 'bold' }}>
+  <a 
+    href="https://github.com/aigerimbakh/setting_app" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    style={{
+      color: 'white',
+      textDecoration: 'none',
+      transition: 'color 0.3s', // Добавлен эффект плавного перехода цвета при наведении
+    }}
+    onMouseEnter={(e) => e.target.style.color = 'red'} // Изменение цвета при наведении на ссылку
+    onMouseLeave={(e) => e.target.style.color = 'white'} // Возвращение цвета при уходе курсора с ссылки
+  >
+    Code GitHub
+  </a>
+</p>
+                        </Col> <Col size={12} sm={6} md={4} className="m-5">
+                        <img src={projImg14} alt="Project 1" style={{ width: '100%', height: 'auto', borderRadius: '30px' }} />
+                        <p style={{ fontSize: '20px', fontWeight: 'bold' }}>
+  <a 
+    href="https://github.com/aigerimbakh/pwaApp" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    style={{
+      color: 'white',
+      textDecoration: 'none',
+      transition: 'color 0.3s', // Добавлен эффект плавного перехода цвета при наведении
+    }}
+    onMouseEnter={(e) => e.target.style.color = 'red'} // Изменение цвета при наведении на ссылку
+    onMouseLeave={(e) => e.target.style.color = 'white'} // Возвращение цвета при уходе курсора с ссылки
+  >
+    Code GitHub
+  </a>
+</p>
+                        </Col> <Col size={12} sm={6} md={4} className="m-5">
+                        <img src={projImg15} alt="Project 1" style={{ width: '100%', height: 'auto', borderRadius: '30px' }} />
+                        <p style={{ fontSize: '20px', fontWeight: 'bold' }}>
+  <a 
+    href="https://github.com/aigerimbakh/mywebapp/tree/main" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    style={{
+      color: 'white',
+      textDecoration: 'none',
+      transition: 'color 0.3s', // Добавлен эффект плавного перехода цвета при наведении
+    }}
+    onMouseEnter={(e) => e.target.style.color = 'red'} // Изменение цвета при наведении на ссылку
+    onMouseLeave={(e) => e.target.style.color = 'white'} // Возвращение цвета при уходе курсора с ссылки
+  >
+    Code GitHub
+  </a>
+</p>
+
+                        </Col>
+                        <Col size={12} sm={6} md={4} className="m-5">
+                        <img src={projImg17} alt="Project 1" style={{ width: '100%', height: 'auto', borderRadius: '30px' }} />
+                        <p style={{ fontSize: '20px', fontWeight: 'bold' }}>
+  <a 
+    href="https://github.com/aigerimbakh/ezoterika" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    style={{
+      color: 'white',
+      textDecoration: 'none',
+      transition: 'color 0.3s', // Добавлен эффект плавного перехода цвета при наведении
+    }}
+    onMouseEnter={(e) => e.target.style.color = 'red'} // Изменение цвета при наведении на ссылку
+    onMouseLeave={(e) => e.target.style.color = 'white'} // Возвращение цвета при уходе курсора с ссылки
+  >
+    Code GitHub
+  </a>
+</p>
+
+                        </Col>
+    
+                        
+                      </Row>
+                      <p>Эти проекты показывают разнообразные работы по дизайну и разработке.</p>
                     
-                      
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
