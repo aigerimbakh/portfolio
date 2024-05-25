@@ -422,7 +422,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #301c28 -5.91%, #4A2FBD 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -469,7 +469,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #363535 -5.91%, #0a0812 111.58%);
+  background: linear-gradient(90.21deg, #000000 -5.91%, #0a0812 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -482,7 +482,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form input, .contact form textarea {
   width: 100%;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   color: #fff;
