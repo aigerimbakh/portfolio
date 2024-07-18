@@ -1,5 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import { ProjectCard } from "./PCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
@@ -18,6 +18,16 @@ import projImg14 from "../assets/img/project-img14.png"
 import projImg15 from "../assets/img/project-img15.png"
 import projImg16 from "../assets/img/project-img16.png"
 import projImg17 from "../assets/img/project-img17.png"
+import projImg18 from "../assets/img/project-img18.png"
+import projImg20 from "../assets/img/project-img20.png"
+import projImg21 from "../assets/img/project-img21.png"
+import projImg19 from "../assets/img/project-img19.png"
+import projImg22 from "../assets/img/project-img22.png"
+import projImg23 from "../assets/img/project-img23.png"
+
+
+
+
 
 
 import 'animate.css';
@@ -68,35 +78,35 @@ export const Projects = () => {
 
     },
     {
-      title: "Men 3d modelling",
+      title: "Business Shop Tilda",
       description: "Design & Development",
       imgUrl: projImg9,
       isVideo:false,
 
     },
     {
-      title: "Business Shop Tilda",
+      title: "Men 3d modelling",
       description: "Design & Development",
       imgUrl: projImg7,
       isVideo:false,
 
     },
     {
-      title: "Town 3d modelling",
+      title: "Banner",
       description: "Design & Development",
       imgUrl: projImg12,
       isVideo:false,
 
     },
     {
-      title: "Town 3d modelling",
+      title: "Project React",
       description: "Design & Development",
       imgUrl: projImg10,
       isVideo:false,
 
     },
     {
-      title: "Town 3d modelling",
+      title: "3d background",
       description: "Design & Development",
       imgUrl: projImg11,
       isVideo:false,
@@ -110,6 +120,48 @@ export const Projects = () => {
       isVideo:false,
 
     },
+    {
+      title: "Town 3d modelling",
+      description: "Design & Development",
+      imgUrl: projImg18,
+      isVideo:false,
+
+    },
+    {
+      title: "Town 3d modelling",
+      description: "Design & Development",
+      imgUrl: projImg19,
+      isVideo:false,
+
+    },
+    {
+      title: "Town 3d modelling",
+      description: "Design & Development",
+      imgUrl: projImg21,
+      isVideo:false,
+
+    },
+    {
+      title: "Town 3d modelling",
+      description: "Design & Development",
+      imgUrl: projImg20,
+      isVideo:false,
+
+    },
+    {
+      title: "Town 3d modelling",
+      description: "Design & Development",
+      imgUrl: projImg22,
+      isVideo:false,
+
+    },
+    {
+      title: "Town 3d modelling",
+      description: "Design & Development",
+      imgUrl: projImg23,
+      isVideo:false,
+
+    }
    
     
   ];
@@ -155,7 +207,8 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                     <div>
-                      <p></p>
+                      <p>Мои проекты на фигме</p>
+                      
 
         </div>
                     </Tab.Pane>
